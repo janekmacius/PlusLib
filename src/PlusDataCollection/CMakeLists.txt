@@ -1940,6 +1940,11 @@ IF(PLUS_USE_TELEMED_VIDEO)
     ${WINDOWS_SDK_INCLUDE_DIRS}
     ${CMAKE_CURRENT_SOURCE_DIR}/Telemed
     )
+
+  LIST(APPEND ${PROJECT_NAME}_LIBS
+    rpcrt4.lib
+    )
+    
 ENDIF()
 
 # --------------------------------------------------------------------------
