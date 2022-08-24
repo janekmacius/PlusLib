@@ -1923,7 +1923,7 @@ IF(PLUS_USE_TELEMED_VIDEO)
   SET(Telemed_HDRS
     Telemed/vtkPlusTelemedVideoSource.h
     Telemed/TelemedUltrasound.h
-    Telemed/Usgfw2_h.h
+    Telemed/Usgfw2.h
     )
 
   LIST(APPEND ${PROJECT_NAME}_HDRS
